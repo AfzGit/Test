@@ -1,4 +1,28 @@
-.center {
+@media only screen and (max-width: 576px) {
+    #top {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    #top {
+        font-size: 30px;
+    }
+}
+
+#top {
     text-align: center;
-    color: rgb(43, 68, 68);
+    color: #94bfbe;
+    margin: 100px;
+    padding: 100px;
+    background-color: #5c0029;
+    border-radius: 20px;
+}
+
+#top-comment {
+    font-size: large;
+}
+
+body {
+    background-color: #61304b;
 }
